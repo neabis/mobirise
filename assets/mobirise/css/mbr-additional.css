@@ -954,6 +954,11 @@ section.lazy-placeholder:after {
 .cid-rZRjhfkW9a .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
+@media (min-width: 1024px) {
+  .cid-rZRjhfkW9a .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 6.3rem);
+  }
+}
 .cid-rZRjhfkW9a .collapsed button.navbar-toggler {
   display: block;
 }
